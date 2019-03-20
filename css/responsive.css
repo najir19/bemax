@@ -1,0 +1,117 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.container{width:970px;}
+.features-content p{display: none;}
+.video img{width: 100%;}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.container{width:750px;}
+.features-content{text-align: center;transform: translateY(56%);}
+.features-content p{display: none;}
+.features-icon h3{display: block;margin-left: 0;}
+.video img{width: 100%;}
+.col-6{width:100%;}
+.video{margin-bottom: 30px;}
+.footer-none{display: none;}
+.footer-col-4{width: 33.33%;}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+.container{width: 300px;}
+.mean-container .mean-bar {margin: 40px 0;}
+.single-slider h2{font-size: 50px;}
+.col-8{
+	width: 100%;
+}
+.col-4{
+	width: 100%;
+}
+.cta-btn {
+	text-align: left;
+	margin-top: 26px;
+}
+.features-content{
+	padding: 16px;
+	transform: translateY(76%);
+}
+.features-content a{
+	margin-top: 10px;
+}
+.single-features{
+	margin-bottom: 30px;
+}
+.features-img img{
+	width: 100%;
+}
+.col-6{
+	width: 100%;
+}
+.video{
+	margin-bottom: 30px;
+}
+.video img{
+	width: 100%;
+}
+.blog-img{
+	width: 100%;
+	margin-bottom: 30px;
+	float: none;
+}
+.blog-content{
+	padding-left: 0;
+	width: 100%;
+	float: none;
+}
+.single-brand{
+	text-align: center;
+}
+.single-brand a{
+	display: inline-block;
+}
+.col-3{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.container{
+		width: 450px;
+	}
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
